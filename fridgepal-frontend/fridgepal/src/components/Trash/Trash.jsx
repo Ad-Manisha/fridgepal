@@ -17,7 +17,7 @@ export default function Trash() {
   }, []);
 
   const fetchTrashItems = () => {
-    axios.get("http://127.0.0.1:8000/trash").then((res) => {
+    axios.get(import.meta.env.VITE_TRASH_URL).then((res) => {
       setTrashItems(res.data);
     });
   };
