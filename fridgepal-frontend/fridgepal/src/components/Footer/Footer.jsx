@@ -5,7 +5,6 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 border-t">
       <div className="max-w-screen-xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center text-gray-700">
-        {/* Branding */}
         <div className="mb-4 md:mb-0 flex items-center space-x-3">
           <img
             src={logo}
@@ -14,7 +13,6 @@ export default function Footer() {
           />
         </div>
 
-        {/* Navigation */}
         <nav className="flex space-x-6 mb-4 md:mb-0">
           <Link
             to="/"
@@ -30,9 +28,7 @@ export default function Footer() {
           </Link>
         </nav>
 
-        {/* Social Links */}
         <div className="flex space-x-6">
-          {/* GitHub */}
           <a
             href="https://github.com/Ad-Manisha/fridgepal"
             target="_blank"
